@@ -10,7 +10,7 @@ Include and initialize an instance variable for each scene in your project that 
 The constructor takes a reference to the _scene_ and the value of the desiderd _cutoff Frequency_.
 Higher values of the cutoff frequency result in a smoother but also more lagged signal.
 
-The _setMaxThreshold_ and _setMinThreshold_ methods can be used to clamp the accelerometer values to given values.
+The _setMaxThreshold_ and _setMinThreshold_ methods can be used to clamp the accelerometer output to given values.
 Use the _getAcceleration_ method to get the actual filtered value.
 
 #Example code
